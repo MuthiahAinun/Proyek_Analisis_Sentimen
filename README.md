@@ -1,8 +1,6 @@
 # Proyek_Analisis_Sentimen
-
+---
 # 💡 Sentiment Analysis with Deep Learning
-
-Proyek ini bertujuan untuk melakukan analisis sentimen pada teks menggunakan berbagai algoritma deep learning. Model yang digunakan antara lain LSTM, CNN, dan GRU dengan berbagai teknik ekstraksi fitur seperti Tokenizer, Word2Vec, dan TF-IDF. Proyek ini dikembangkan menggunakan Python dan TensorFlow.
 
 ## 📌 Deskripsi
 Proyek ini bertujuan untuk melakukan analisis sentimen pada teks menggunakan berbagai algoritma deep learning. Model yang digunakan antara lain LSTM, CNN, dan GRU dengan berbagai teknik ekstraksi fitur seperti Tokenizer dan Word2Vec. Proyek ini dikembangkan menggunakan Python dan TensorFlow. 
@@ -43,7 +41,9 @@ Menggunakan Word2Vec sebagai teknik embedding.
 ## ⚙️ Instalasi
 Pastikan Anda menggunakan Python 3.x dan instal dependensi dengan perintah berikut:
 
-```pip install -r requirements.txt```
+```sh
+pip install -r requirements.txt
+```
 
 ## 📝 Evaluasi Model
 Model menghasilkan metrik evaluasi berupa:
@@ -54,12 +54,16 @@ Model menghasilkan metrik evaluasi berupa:
 🌟 F1-Score
 
 ## 🗃️ Struktur Folder
+```
 ├── data/                   # Folder dataset
 ├── models/                 # Folder model terlatih
 ├── scripts/                # Folder skrip Python
 ├── requirements.txt        # Daftar dependensi
 ├── sentiment_analysis.py   # Skrip utama
 └── README.md               # Dokumentasi proyek
+```
 
 ## 💡 Kontribusi
 Kontribusi sangat diterima! Jika Anda memiliki ide atau saran, silakan buat Pull Request atau ajukan Issue. 😊
+
+📧 Hubungi saya melalui [GitHub](https://github.com/MuthiahAinun) jika ada pertanyaan.
