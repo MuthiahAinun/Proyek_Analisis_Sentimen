@@ -1,0 +1,7 @@
+google-api-python-client
+pandas
+numpy
+scikit-learn
+imblearn
+gensim
+tensorflow
