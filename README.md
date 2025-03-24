@@ -57,9 +57,7 @@ Model menghasilkan metrik evaluasi berupa:
 ```
 ├── NDsO1LT_0lw_youtube_comments.csv                                      # File dataset
 ├── Scraping_Proyek_Analisis_Sentimen_Tsamarah_Muthi'ah_A.ipynb           # File Scraping
-├── Skema1_Proyek_Analisis_Sentimen_Tsamarah_Muthi'ah_A.ipynb             # File Skema 1
-├── Skema2_Proyek_Analisis_Sentimen_Tsamarah_Muthi'ah_A.ipynb             # File Skema 2
-├── Skema3_Proyek_Analisis_Sentimen_Tsamarah_Muthi'ah_A.ipynb             # File Skema 3
+├── Proyek_Analisis_Sentimen_Tsamarah_Muthi'ah_A.ipynb                    # File Skema 1, Skema 2, Skema 3
 ├── requirements.txt                                                      # Daftar dependensi
 └── README.md                                                             # Dokumentasi proyek
 ```
