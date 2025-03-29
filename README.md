@@ -61,6 +61,7 @@ Model menghasilkan metrik evaluasi berupa:
 ├── NDsO1LT_0lw_youtube_comments.csv                                      # File dataset
 ├── Scraping_Proyek_Analisis_Sentimen_Tsamarah_Muthi'ah_A.ipynb           # File Scraping
 ├── Proyek_Analisis_Sentimen_Tsamarah_Muthi'ah_A.ipynb                    # File Skema 1, Skema 2, Skema 3
+├── dataset_labeled.pkl                                                   # Dataset yang telah diberi label sentiment
 ├── requirements.txt                                                      # Daftar dependensi
 └── README.md                                                             # Dokumentasi proyek
 ```
