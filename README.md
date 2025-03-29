@@ -5,6 +5,8 @@
 ## 📌 Deskripsi
 Proyek ini bertujuan untuk melakukan analisis sentimen teks menggunakan berbagai algoritma machine learning. Model yang digunakan mencakup Random Forest dan XGBoost, dengan teknik ekstraksi fitur seperti Word2Vec dan TF-IDF. Selain itu, PCA diterapkan untuk meningkatkan efisiensi model.
 
+Pada tahap pelabelan, digunakan **VADER** Sentiment Analysis untuk teks berbahasa Inggris dan **IndoBERT** (Hugging Face Transformer) untuk teks berbahasa Indonesia. Untuk memastikan pemrosesan yang tepat, diterapkan fungsi deteksi bahasa otomatis yang mengidentifikasi bahasa dalam dataset sebelum melakukan analisis sentimen.
+
 Proyek ini dikembangkan menggunakan Python dan pustaka Scikit-learn, Gensim, serta XGBoost. Model yang dibangun akan mengklasifikasikan sentimen ke dalam tiga kategori: Positif, Netral, dan Negatif.
 
 ---
