@@ -3,8 +3,9 @@
 # 💡 Sentiment Analysis with Deep Learning
 
 ## 📌 Deskripsi
-Proyek ini bertujuan untuk melakukan analisis sentimen pada teks menggunakan berbagai algoritma deep learning. Model yang digunakan antara lain LSTM, CNN, dan GRU dengan berbagai teknik ekstraksi fitur seperti Tokenizer dan Word2Vec. Proyek ini dikembangkan menggunakan Python dan TensorFlow. 
-Model deep learning digunakan untuk mengklasifikasikan sentimen menjadi **Positif**, **Netral**, dan **Negatif**.
+Proyek ini bertujuan untuk melakukan analisis sentimen teks menggunakan berbagai algoritma machine learning. Model yang digunakan mencakup Random Forest dan XGBoost, dengan teknik ekstraksi fitur seperti Word2Vec dan TF-IDF. Selain itu, PCA diterapkan untuk meningkatkan efisiensi model.
+
+Proyek ini dikembangkan menggunakan Python dan pustaka Scikit-learn, Gensim, serta XGBoost. Model yang dibangun akan mengklasifikasikan sentimen ke dalam tiga kategori: Positif, Netral, dan Negatif.
 
 ---
 
@@ -26,17 +27,14 @@ Model deep learning digunakan untuk mengklasifikasikan sentimen menjadi **Positi
 ## 🏗️ Arsitektur Model
 Proyek ini terdiri dari 3 skema pemodelan sebagai berikut:
 
-`🚀 Skema 1: LSTM + Tokenizer`
-Menggunakan LSTM (Long Short-Term Memory) untuk memproses urutan teks.
-Fitur diekstraksi menggunakan Tokenizer.
+`🚀 Skema 1: Random Forest + Word2Vec + PCA`
+Menggunakan algoritma Random Forest untuk klasifikasi, dengan fitur diekstraksi menggunakan Word2Vec untuk representasi kata. PCA (Principal Component Analysis) diterapkan untuk mengurangi dimensi fitur dan meningkatkan efisiensi model.
 
-`🌊 Skema 2: CNN + Word2Vec`
-Menggunakan CNN (Convolutional Neural Network) untuk ekstraksi fitur spasial.
-Memanfaatkan Word2Vec untuk representasi kata.
+`🌊 Skema 2: Random Forest + TF-IDF`
+Menggunakan Random Forest sebagai model klasifikasi dengan fitur yang diekstraksi menggunakan TF-IDF (Term Frequency-Inverse Document Frequency). Pendekatan ini menangkap pentingnya kata dalam dokumen untuk meningkatkan performa klasifikasi.
 
-`🌐 Skema 3: GRU + Word2Vec`
-Menggunakan GRU (Gated Recurrent Unit) untuk pemrosesan teks berurutan.
-Menggunakan Word2Vec sebagai teknik embedding.
+`🌐 Skema 3: XGBoost + TF-IDF`
+Menggunakan XGBoost, algoritma berbasis pohon yang dioptimalkan untuk performa tinggi, dengan fitur diekstraksi menggunakan TF-IDF. Kombinasi ini bertujuan untuk meningkatkan akurasi dalam klasifikasi teks.
 
 ## ⚙️ Instalasi
 Pastikan Anda menggunakan Python 3.x dan instal dependensi dengan perintah berikut:
@@ -49,8 +47,11 @@ pip install -r requirements.txt
 Model menghasilkan metrik evaluasi berupa:
 
 🎯 Akurasi
+
 📝 Precision
+
 🔁 Recall
+
 🌟 F1-Score
 
 ## 🗃️ Struktur Folder
